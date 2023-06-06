@@ -37,7 +37,7 @@ tkDisplay.config(yscrollcommand=scrollBar.set,
                  state="disabled")
 displayFrame.pack(side=tk.TOP)
 
-# Bottom frame consisting only of the text box to type messages into
+# Bottom frame consisting only of the text box to type messages in
 bottomFrame = tk.Frame(window)
 tkMessage = tk.Text(bottomFrame, height=2, width=60)
 tkMessage.pack(side=tk.LEFT, padx=(5, 13), pady=(5, 10))
